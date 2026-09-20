@@ -79,7 +79,7 @@ GitHub Desktop → Repository menu → Repository Settings → check if LFS is l
 7. Move the Trello card to **Done**.
 <br>
  
-## Notes / things people keep tripping on
+## Notes
  
 - **Github can't cope with merge conflicts** with these kinds of files, so this set up is aimed to avoid getting a conflict in the first place. If you do see a merge conflict- may the lord have mercy on you, the only way to resolve a conflict is to just choose if your work is the one that stay sor somone elses.
 - **Always Pull before creating a new branch**, so you're not missing anyone's already-merged work.
