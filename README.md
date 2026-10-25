@@ -14,20 +14,34 @@
 **Group 3**
 
 
+## Branches
+
+Each assignment will have its own branch, so you will see `/A1` and `/A2` corresponding to the assignments. Current work happens in branch `/A2`
 
  
 ## Folder Structure
  
 - `/raw` — Untouched `.tak` files from Motive
-- `/cleaned` — Cleaned versions of the raw takes. Active cleanup work lands here
-- `/[Assignment name]` — Final files (+ any supporting images/docs) for a specific submission
-- `/reference` — Reference footage or notes
+- `/cleaned` — Cleaned versions of the raw takes. Active cleanup work happens here
+- `/[Assignment name]` — Final files for a specific submission
+
 
 <br>
   
-> If you're checking this repo for grading purposes, **the current deliverable is in `/[N/A]`**
+> If you're checking this repo for grading purposes, **the current assignment is in `A2`**
  
 <br>
+
+## The way we work
+
+1. After recording the takes are uploaded it to a shared google drive, that is the master copy- those files never get altered in any way. 
+2. The takes get dowloaded then uploaded to this github repo to work
+3. When you sit down to work, Pull to make sure you have the most up to date version
+4. If you are the first one doing the cleaning you will open up the excel sheet and double check that `take names are identical to the shotlist` and double check that `each take is starred correctly`
+5. Once that is done, you are free to do your cleaning: ghost markers, swapped or missing markers. You do not trim, we will return to that.
+6. Once done, you mark it on the excel sheet, and hand off *the dongle*
+7. If you are reviewing, you open up each take and make sure there are no shenangans- if there are yell at the original responsible and either tell them to fix it or be the bigger person and fix it yourself under the guise of learning.
+8. Once every take has been reviewed and fixed, we trim each take- we leave this step so late because if Solving is needed then we must have the T-pose still.
  
  
 ## Setup
@@ -46,39 +60,11 @@ GitHub Desktop → Repository menu → Repository Settings → check if LFS is l
 <br>
 
 
-**Repo Setup**
- 
-1. Open GitHub Desktop
-2. Go to File
-3. Choose Clone Repository
-4. select this repo → choose a location on your computer
 
-
-
-<br>
-
- 
-## Workflow: Cleaning
-
-1. Choose a take from Trello
-2. Open GitHub Desktop → Pull
-3. Do your cleanup in Motive, export the result into /cleaned inside your local repo folder
-4. Write a short summary of what you did (e.g. "removed ghost markers") and Commit
-5. Push
-6. Hand off *the dongle*
-
-<br>
- 
-## Workflow: Reviewing
- 
-1. Pull
-2. Open the file in /cleaned in Motive and check it- play back the take, verify the fixes
-3. if it's good: move the Trello card to Done
-4. if it's not: move it back to "In Progress" and leave a comment on the card explaining what needs fixing, so the original person knows what to redo
-<br>
 
  
 ## Notes
  
-- **Github can't cope with merge conflicts** with these kinds of files, so this set up is aimed to avoid getting a conflict in the first place. If you do see a merge conflict- may the lord have mercy on you, the only way to resolve a conflict is to just choose if your work is the one that stays or somone elses
-- the raw `.tak` file in `/raw` never gets overwritten. open it in Motive, do your work, but always export the result as a new file into `/cleaned`, don't save over the original
+- **Github can't cope with merge conflicts** with these kinds of files, so this set up is aimed to avoid getting a conflict in the first place. If you do see a merge conflict- may the lord have mercy on you, the only way to resolve a conflict is to just choose if your work is the one that stays or somone elses.
+  
+- the raw `.tak` file in `/raw` never gets overwritten. open it in Motive, copy it as a new file into `/cleaned`, and work from there. IF YOU FUCKED UP: Fret not, you will take that take and put it into cleaned, then you shall visit the drive, and dowload the raw version of that take and put *that* into the raw folder.
